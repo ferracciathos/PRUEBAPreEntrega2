@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+/* < ------------------------------ G L O B A L E S ------------------------------ > */
+* {
+    margin: 0px;;
+    padding: 0px;;
+    box-sizing: border-box;      
+ }
+
+ body {
+    font-family: 'Source Sans 3', sans-serif, Tahoma, Geneva, Verdana;
+    background-color: rgb(179, 179, 179);
+    color: rgb(51, 51, 51);
+    overflow-x: hidden;
+  }
+
+ .navegacion {
+    background-color: white; 
+    position: fixed;
+    top: 0px;
+    text-align: right;
+    width: 100%;
+    z-index: 5;
+}
+
+.imagen-logo-nav {   
+    position: relative;
+    z-index: 2;     
+}
+
+.logo-hogwarts {
+   position: absolute;
+   height: 100px;
+   top:5px;
+   left: 30px;
+   width: auto;
+}
+
+.titulo {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 80px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+  }
+.titulo h3 {
+    font-size: 20px;
+}
+
+ /* < ------------------------------ I N D E X ------------------------------ > */
+.imagen-principal-home {
+    text-align: center;
+    background-image: url('../assets/images/Castillo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+
+.lema {
+    position:unset;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.lema1 {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.lema2 {
+    font-weight: 800;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.ultimas-noticias {
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.titulo-noticias {
+  text-align: center;
+  margin-top: 160px;
+}
+.ultimas-noticias .noticia {
+    width: 400px;
+    height: 400px;  
+    border-radius: 20px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    transition: all 0.25s;
+    display: inline-block;
+}
+
+.noticia {
+  background-color: rgba(252, 246, 239, 0.89);
+  padding: 30px;
+}
+
+.noticia:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.noticia img {
+  width: 250px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.noticia h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.noticia h4 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+
+
+
+/* < ------------------------------ C O L E G I O ------------------------------ > */
+.imagen-principal-colegio {
+  text-align: center;
+  background-image: url('../assets/images/comedor.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+/* GRILLA */
+.grid-container-colegio {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px; 
+  padding: 30px; 
+}
+
+.grid-item-colegio {
+  padding: 40px;
+  text-align: center;
+  font-size: 33px;
+  color: rgb(51, 51, 51);
+}
+
+.grid-item-colegio img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+/* < -------------------------- A U T O R I D A D E S -------------------------- > */
+.imagen-principal-autoridades {
+  text-align: center;
+  background-image: url('../assets/images/salon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 700px;
+  width: 100%;
+}
+
+.carousel {
+  max-width: 700px;
+  max-height: 800px;
+}
+.carousel-item {
+  max-width: 100%;
+  max-height: 800px;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* < ----------------------------- M A T E R I A S ----------------------------- > */
+.imagen-principal-materias {
+  text-align: center;
+  background-image: url('../assets/images/clases2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+/* < ------------------------ I N S C R I P C I O N E S ------------------------ > */
+.imagen-principal-inscripciones {
+  text-align: center;
+  background-image: url('../assets/images/castillo2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+/* < ------------------------------ F O O T E R ------------------------------ > */
+
+.footer {
+  background-color: white; 
+  position: static;
+  top: 100px;
+  width: 100%;
+
+}
+
+.info-footer {   
+  text-align: center;
+  position: relative;
+  z-index: 2;    
+  top: 200px;
+  left: 230px;
+  display: inline-block;
+}
+
+.logo-footer {
+ position: relative;
+ height: 100px;
+ width: auto;
+ left: 200px;
+ top: 160px;
+}
+
+.himno {
+ position: relative;
+ height: auto;
+ top: -90px;
+ left: -220px;
+ z-index: 3;
+ font-weight: 700;
+ text-align: right;
+}
+
+.himno h5 {
+  position: relative;
+  left: -220px;
+  margin: 20px;
+}
+
+.footer p {
+  text-align: center;
+  margin: -50px;
+}

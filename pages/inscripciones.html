@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/images/logo-hogwarts.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Colegio Hogwarts</title>
+</head>
+
+<body>
+    <header class="navegacion">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary background-color: #e3f2fd fixed-top">
+            <div class="container-fluid">
+                <img src="../assets/images/logo-hogwarts.webp" alt="Logo" width="90" height="auto" class="d-inline-block align-text-top">
+                <a class="navbar-brand" href="index.html">Colegio Hogwarts </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="colegio.html">Colegio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="autoridades.html">Autoridades</a>
+                  </li>        
+                  <li class="nav-item">
+                    <a class="nav-link" href="materias.html">Asignaturas</a>
+                  </li>     
+                  <li class="nav-item">
+                    <a class="nav-link active" href="inscripciones.html">Inscripciones</a>
+                  </li>                       
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
+    <section class="titulo">
+        <h1>Inscripciones</h1>
+    </section>
+
+    <section class="imagen-principal-inscripciones">
+    </section>
+
+    <section class="carta">
+        <p> Lamentablemente, no estamos recibiendo inscripciones voluntarias a nuestro colegio.<br>
+            Debido a nuestro gran estatus y nuestra importancia en el mundo mágico, solo los alumnos seleccionados y que reciban su carta de Hogwarts pueden asistir al colegio.<br>
+            Si crees que existe un error, puedes enviar tu lechuza a nuestras oficinas estudiantiles.<br>
+            Igualmente, aqui abajo te dejamos un formulario de contacto asi nuestro futuro programador(yo) aprende a crear formularios. </p>
+        <img src="../assets/images/carta-hogwarts.jpg" alt="Carta de aceptacion de Hogwarts">
+    </section>
+
+    <section class="formulario-de-contacto">
+        <form>
+            <fieldset>
+                <legend class="contacto-titulo">Envianos un mensaje</legend>
+            <label for="nombre">Nombre completo</label>
+            <input type="text"  placeholder="Escribi tu nombre completo aqui">
+            <label for="correo">E-mail:</label>
+            <input type="email" placeholder="Escribi tu mail aqui">
+            <label for="apellido">Numero de telefono:</label>
+            <input type="number" placeholder="Numero de telefono">
+            <textarea name="" cols="40" rows="5" placeholder="Escribi tu mensaje aqui"></textarea>
+            <input type="reset" value="Borrar todo">
+            <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <img src="../assets/images/logo-hogwarts.webp" alt="Logo Hogwarts" class="logo-footer"> 
+    <div class="info-footer">
+    <h4>Colegio Hogwarts</h4>
+    <h5>de Magia y Hechiceria</h5>
+    <h6>Draco Dormiens Nunquam Titillandus</h6>
+    </div>
+
+    <div class="himno">
+        <h5>Nuestro Himno</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QrTrmnpTNwY?si=wcM60BfQOutrhSq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p>© AÑO 990. Todos los derechos reservados al Ministerio de Mágia. Ubicado en Londres, Inglaterra.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
