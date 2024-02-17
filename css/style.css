@@ -5,6 +5,7 @@
     margin: 0px;;
     padding: 0px;;
     box-sizing: border-box;      
+    border: 1px solid red;
  }
 
  body {
@@ -158,7 +159,6 @@
 }
 
 .grid-item-colegio {
-  padding: 40px;
   text-align: center;
   font-size: 33px;
   color: rgb(51, 51, 51);
@@ -171,6 +171,9 @@
 
 
 /* < -------------------------- A U T O R I D A D E S -------------------------- > */
+.autoridades-main {
+  width: 100%;
+}
 .imagen-principal-autoridades {
   text-align: center;
   background-image: url('../assets/images/salon.jpg');
@@ -234,4 +237,77 @@
   margin: 100px;
 }
 
-/* < ------------------------------ F O O T E R ------------------------------ > */
+/* < ------------------------------ MEDIA QUERIES ------------------------------ > */
+
+@media (max-width:990px) {
+
+  .body {
+    width: fit-content;
+  }
+
+  .titulo {
+    top: 70px;
+  }
+  .titulo h1 {
+    font-size: 15px;
+  }
+  .footer-himno {
+    text-align: center; 
+  }
+
+  .footer-video {
+    width: auto;
+  }
+
+
+
+
+  /* hasta aca */
+  .contenido-dos-asignaturas-materias {
+      display: flex;
+      flex-direction: column;       
+  }
+
+  .asignaturas-contenido {
+      width: 100%;
+      flex-direction: column;    
+  }
+
+  .contenido-tres-asignaturas-materias {
+      display: flex;
+      flex-direction: column;       
+  }
+
+  .asignaturas-contenido-deportes {
+      width: 100%;
+      flex-direction: column;    
+  }
+
+  .contenedor-dos-inscripciones1 {
+      display: flex;
+      flex-direction: column;       
+  }
+
+  .contenido-dos-colegio {
+      display: flex;
+      flex-direction: column;       
+  }
+
+  .contenedor-principal-colegio {
+      display: flex;
+      flex-direction: column;   
+
+  }
+  .contenido-dos-colegio-imagen {
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+  }
+
+  .grid-container-colegio {
+    display: flex;
+    flex-direction: column;   
+  }
+
+
+}
