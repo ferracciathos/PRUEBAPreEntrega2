@@ -259,55 +259,9 @@
     width: auto;
   }
 
-
-
-
-  /* hasta aca */
-  .contenido-dos-asignaturas-materias {
-      display: flex;
-      flex-direction: column;       
-  }
-
-  .asignaturas-contenido {
-      width: 100%;
-      flex-direction: column;    
-  }
-
-  .contenido-tres-asignaturas-materias {
-      display: flex;
-      flex-direction: column;       
-  }
-
-  .asignaturas-contenido-deportes {
-      width: 100%;
-      flex-direction: column;    
-  }
-
-  .contenedor-dos-inscripciones1 {
-      display: flex;
-      flex-direction: column;       
-  }
-
-  .contenido-dos-colegio {
-      display: flex;
-      flex-direction: column;       
-  }
-
-  .contenedor-principal-colegio {
-      display: flex;
-      flex-direction: column;   
-
-  }
-  .contenido-dos-colegio-imagen {
-      width: 100%;
-      height: 100%;
-      padding: 0px;
-  }
-
   .grid-container-colegio {
     display: flex;
     flex-direction: column;   
   }
-
 
 }
